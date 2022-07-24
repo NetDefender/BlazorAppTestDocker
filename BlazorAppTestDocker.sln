@@ -3,16 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32714.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppTestDocker.Server", "Server\BlazorAppTestDocker.Server.csproj", "{B7DF5025-45F7-476A-ACB1-AE21764D3F28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppTestDocker.Server", "Server\BlazorAppTestDocker.Server.csproj", "{B7DF5025-45F7-476A-ACB1-AE21764D3F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppTestDocker.Client", "Client\BlazorAppTestDocker.Client.csproj", "{4299233B-AF19-489E-B5DD-8C47B3788440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppTestDocker.Client", "Client\BlazorAppTestDocker.Client.csproj", "{4299233B-AF19-489E-B5DD-8C47B3788440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppTestDocker.Shared", "Shared\BlazorAppTestDocker.Shared.csproj", "{D3EE3677-1FE2-4AA1-8C8E-7A938352DF49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppTestDocker.Shared", "Shared\BlazorAppTestDocker.Shared.csproj", "{D3EE3677-1FE2-4AA1-8C8E-7A938352DF49}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{0DCCEEAE-3943-4478-AAA9-CCBE450C431C}"
 	ProjectSection(SolutionItems) = preProject
 		Commands.cmd = Commands.cmd
 		Dockerfile = Dockerfile
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
