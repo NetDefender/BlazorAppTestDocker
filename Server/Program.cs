@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    //Without this it doesnt work with Production Environment
+    //Without this line, it doesnt work in Production Environment
     StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
     app.UseExceptionHandler("/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.

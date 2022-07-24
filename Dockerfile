@@ -44,3 +44,4 @@ FROM base as final
 
     COPY --from=publish /app/publish .
     ENTRYPOINT ["dotnet", "BlazorAppTestDocker.Server.dll"]
+
